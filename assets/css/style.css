@@ -708,12 +708,11 @@ footer {
     var(--icons-color) 100%
   );
   text-align: center;
-  padding: 1rem var(--horizontal-padding);
+  padding: 2rem var(--horizontal-padding);
   display: grid;
-  grid-template-columns: 20% 30% 45%;
+  grid-template-columns: 15% 15% 25% 45%;
   gap: 1rem;
   overflow: hidden;
-  align-items: center;
 }
 .footer_list {
   flex-direction: column;
@@ -721,10 +720,10 @@ footer {
 }
 .contact_us {
   width: 100%;
-  padding: 1rem;
 }
 .contact_us h3 {
   color: white;
+  margin-bottom: 1rem;
 }
 .contact_us form {
   display: flex;
@@ -747,6 +746,13 @@ footer {
 }
 .contact_us button {
   margin: 1rem auto;
+}
+.contact_info h3 {
+  color: var(--white);
+  text-align: left;
+}
+.contact_info p {
+  text-align: left;
 }
 /* All rights  */
 .reserved {
@@ -1024,3 +1030,4 @@ footer {
     font-size: 14px;
   }
 }
+
